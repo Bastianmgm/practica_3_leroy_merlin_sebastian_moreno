@@ -1,0 +1,350 @@
+body{
+        width: 968px;
+        height: 3000px;
+        margin: auto;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+.conteiner{
+        border: 3px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+}
+header{
+        height: 168px;
+        
+}
+.logo{
+        padding-left: 15px;
+}
+.top{
+        float: right; 
+        color: gray;
+        position: relative;
+        left: 17px;
+        
+}
+.top li{
+        
+        padding-top: 5px;
+        padding-right: 20px;
+        text-decoration: none;
+        list-style: none;
+        float: right;
+
+}
+strong{
+        color:rgb(123, 182, 34);
+}
+
+.bottom{
+
+        height: 10px;
+        
+}
+.bottom ul{
+
+
+        position: relative;
+        left: 565px;
+        bottom: 23px;
+        clear: both;    
+        color: gray;
+        
+}
+.bottom li{
+
+        list-style: none;
+        display: inline-block;
+        font-size: 1.2;
+        
+} 
+#ayuda{
+
+        margin-right:15px;
+        border-right: solid gray 2px;
+        padding-right: 15px;
+
+}      
+.main{
+        margin-bottom: 15;
+        background-color: rgb(123, 182, 34);
+        height: 45px;
+}
+.main ul{
+        
+        padding-top: 15px;
+        height: 25px;     
+}
+.main li{
+
+        
+        list-style: none;
+        display: inline-block;
+        color:white;
+        padding-right: 10px;
+        padding-left: 10px;
+}
+.separador{
+        border-right:  solid gray 1px;
+}
+
+#carrito{
+        padding-right: 5px;
+        padding-left: 15px;
+}
+#buscar{
+
+        height: 20px;
+        border: none;
+        width: 119px;
+        border-radius: 10px 10px 10px 10px;
+        color:grey;
+        background-image: url("../logos/lupa.png");
+        background-repeat: no-repeat;
+        background-position: 2.6cm;
+        background-size: 0.4cm;
+        
+        
+}
+#buscar::placeholder{
+
+        padding-left: 12px;
+}
+.section1{
+
+        width: 938px;
+        padding-left: 13px;
+        margin-top: 0px;
+        margin-bottom: 18px;
+}
+.ofertas{
+
+        margin-left: 10px;
+        width: 938px;
+        border-radius: 5px;
+        background-color: rgb(123, 182, 34);
+        height: 55px;
+}
+.ofertas p{
+
+        
+        display: inline-block;
+}
+.icons{
+        
+        float: right;
+       
+}
+.icons img{
+
+        position:relative;
+        bottom: 22px;
+        display: inline-block; 
+        margin-right: 7px; 
+}
+.p1{
+        
+        color: white;
+        padding-top: 7px;
+        margin-left: 10px;
+        font-size: 1.3em;
+}
+.p2{
+
+        margin-left: 10px;
+        font-size: small;
+}
+.section2 figure img{
+
+        width: 225px;
+        height: 150px;
+        display: inline-block;
+        padding-left: 6px;
+}
+.section2{
+        clear: both;
+        margin-top: 20px;
+        margin-left: 8px;
+        
+        
+}
+.negrita{
+
+        font-weight: bolder;
+        color: black;
+        font-size: 12px;
+}
+.section3{
+
+        margin-top: 45px;
+        height: 250px;
+        width: 968px;
+}
+.section3 div{
+
+        display: inline-block;  
+        width: 233px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+}
+.section3 div p{
+
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray; 
+        font-size: 13px;
+        width: 153px;
+        
+}
+#calefaccion{
+
+       position: relative;
+       
+}
+.eficiencia{
+
+        position: relative;
+        bottom: 16px;
+}
+
+#cocinas{
+
+        position: relative;
+        top: 5px;
+       
+
+}
+#maquinaria
+{
+        position: relative;
+        top: 22px;
+}
+#bricolaje{
+
+        position: relative;
+        bottom: 23px;
+}
+#suelo{
+
+        position: relative;
+        top: 35px;
+}
+hr{
+        width: 968px;
+        margin-top: 5px;
+        border:rgb(123, 182, 34) solid 1px;
+}
+.sectionfinal{
+
+        height: 110px;
+        width: 968px;
+        background: linear-gradient(to left,rgb(182, 179, 179) , white);
+        margin-top: 25px;
+        display: inline-block;
+        border-radius: 5px;
+}
+
+#footer{
+
+        color: grey;
+        font-weight: bolder;
+        font-size: 25px;
+}
+.sectionfinal div{
+
+        width: 980;
+        display: inline-block;
+        margin-right: 40px;
+}
+#fsiguenos{
+
+        padding-top: 25px;
+}    
+
+.siguenos p{
+
+       padding-left: 30px;
+       color: grey;
+       
+}
+.iconos{
+
+        position: relative;
+        left: 130px;
+}
+.iconos figure{
+
+        display: inline-block;  
+        padding-left: 5px;  
+        
+}
+.iconos figure img{
+
+        width: 40px;
+        height: 40px;
+        border-radius: 80px;
+        padding: 10px;     
+        
+}
+#comunidad{
+
+        background-color:rgb(123, 182, 34);
+}
+#facebook{
+
+        background-color: rgb(18, 73, 190);
+}
+#twitter{
+
+        background-color: rgb(3, 193, 226);
+}
+#sobre{
+        background-color: rgb(126, 97, 194);
+}
+#youtube{
+
+        background-color: red;
+}
+#apple{
+
+        background-color: rgb(110, 109, 109);
+}
+footer{
+        margin-top: 10px;
+        width: 968px;
+        height: 100px;
+
+}
+footer ul {
+
+        list-style-type: none;
+}
+.listafooter{
+
+        margin-right: 10px;
+}
+.listafooter ul li{
+
+        float: left;
+        font-size: small;
+        padding: 10px;
+        color: rgb(123, 182, 34);
+        font-weight: bold;
+        
+}
+.iconosfooter ul li{
+
+        float: left;
+        font-size: small;
+        padding-left: 7px;
+    
+}
+.iconosfooter{
+
+        position: relative;
+        left: 10px;
+        top: 10px;
+        
+
+}
